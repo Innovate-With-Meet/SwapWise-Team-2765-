@@ -2,7 +2,16 @@
 
 git log -1 --pretty=format:'%an <%ae>'
 Team member name:
-Meet Rana
-Shalin T Modi
-Aagam A Desai
+Meet Rana,
+Shalin T Modi,
+Aagam A Desai,
 Shreyam B Doshi
+
+Frontend:
+React, Material UI
+
+Backend:
+FastAPI, MongoDB
+
+Database:
+MongoDB
