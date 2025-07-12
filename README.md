@@ -3,16 +3,16 @@
 git log -1 --pretty=format:'%an <%ae>'
 Team member name:
 Meet Rana,
-Shalin T Modi,
-Aagam A Desai,
-Shreyam B Doshi
+Shalin Modi,
+Aagam Desai,
+Shreyam Doshi
 
 Frontend:
 React, Material UI
 
 Backend:
 FastAPI, MongoDB
-Run backend on below given link:
+Run the backend on the given link:
 (http://127.0.0.1:8000/docs)
 
 Database:
