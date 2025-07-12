@@ -3,6 +3,6 @@
 git log -1 --pretty=format:'%an <%ae>'
 Team member name:
 Meet Rana
-Shalin Modi
-Aagam Desai
-Shreyam Doshi
+Shalin T Modi
+Aagam A Desai
+Shreyam B Doshi
