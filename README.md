@@ -12,6 +12,8 @@ React, Material UI
 
 Backend:
 FastAPI, MongoDB
+Run backend on below given link:
+(http://127.0.0.1:8000/docs)
 
 Database:
 MongoDB
