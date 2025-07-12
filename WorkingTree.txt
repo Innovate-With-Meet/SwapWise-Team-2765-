@@ -1,49 +1,47 @@
-SkillSwapPlatform/
+swapwise/
 ├── backend/
-│   ├── controllers/
-│   │   ├── authController.js
-│   │   ├── userController.js
-│   │   ├── swapController.js
-│   ├── models/
-│   │   ├── User.js
-│   │   ├── SwapRequest.js
-│   ├── routes/
-│   │   ├── authRoutes.js
-│   │   ├── userRoutes.js
-│   │   ├── swapRoutes.js
-│   ├── middlewares/
-│   │   ├── authMiddleware.js
-│   │   ├── adminMiddleware.js
-│   ├── config/
-│   │   └── db.js
-│   ├── utils/
-│   │   └── validateInput.js
-│   ├── app.js
-│   └── server.js
-│
+│   ├── app/
+│   │   ├── api/
+│   │   │   ├── v1/
+│   │   │   │   ├── endpoints/
+│   │   │   │   │   ├── auth.py
+│   │   │   │   │   ├── users.py
+│   │   │   │   │   └── swaps.py
+│   │   │   │   └── __init__.py
+│   │   │   └── __init__.py
+│   │   ├── core/
+│   │   │   └── config.py
+│   │   ├── models/
+│   │   │   ├── user.py
+│   │   │   └── swap.py
+│   │   ├── schemas/
+│   │   │   ├── user.py
+│   │   │   └── swap.py
+│   │   ├── crud/
+│   │   │   ├── user.py
+│   │   │   └── swap.py
+│   │   ├── database.py
+│   │   ├── main.py
+│   │   └── __init__.py
 ├── frontend/
 │   ├── public/
 │   ├── src/
-│   │   ├── assets/
 │   │   ├── components/
 │   │   │   ├── Navbar.jsx
 │   │   │   ├── SkillCard.jsx
-│   │   │   ├── SwapRequestCard.jsx
-│   │   │   ├── FeedbackModal.jsx
 │   │   ├── pages/
 │   │   │   ├── Home.jsx
-│   │   │   ├── Login.jsx
-│   │   │   ├── Register.jsx
-│   │   │   ├── Dashboard.jsx
-│   │   │   ├── BrowseUsers.jsx
-│   │   │   ├── AdminPanel.jsx
-│   │   ├── services/
-│   │   │   ├── api.js
+│   │   │   ├── Profile.jsx
+│   │   │   ├── UserDashboard.jsx
+│   │   │   ├── login.jsx
+│   │   │   ├── registration.jsx
+│   │   │   └── SwapRequests.jsx
 │   │   ├── App.jsx
-│   │   └── main.jsx
-│   └── package.json
-│
-├── .env
+│   │   ├── index.js
+│   ├── .env
+│   ├── package.json
+│   └── @mui.config.js
 ├── .gitignore
 ├── README.md
-└── package.json
+├── requirements.txt
+└── .env
