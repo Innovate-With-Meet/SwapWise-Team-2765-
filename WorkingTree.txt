@@ -1,0 +1,49 @@
+SkillSwapPlatform/
+├── backend/
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── userController.js
+│   │   ├── swapController.js
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── SwapRequest.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── userRoutes.js
+│   │   ├── swapRoutes.js
+│   ├── middlewares/
+│   │   ├── authMiddleware.js
+│   │   ├── adminMiddleware.js
+│   ├── config/
+│   │   └── db.js
+│   ├── utils/
+│   │   └── validateInput.js
+│   ├── app.js
+│   └── server.js
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── SkillCard.jsx
+│   │   │   ├── SwapRequestCard.jsx
+│   │   │   ├── FeedbackModal.jsx
+│   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Register.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── BrowseUsers.jsx
+│   │   │   ├── AdminPanel.jsx
+│   │   ├── services/
+│   │   │   ├── api.js
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   └── package.json
+│
+├── .env
+├── .gitignore
+├── README.md
+└── package.json
